@@ -5,11 +5,12 @@ const path = require('path')
 module.exports = merge(common, {
   mode: 'development',
   devtool: 'inline-source-map',
-  watch: true,
   devServer: {
     static: './dev_build'
   },
+  watch: true,
   output: {
+    filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'dev_build')
   }
 })
