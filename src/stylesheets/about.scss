@@ -7,7 +7,7 @@ h5{
     height: 800px;
 }
 .sec1{
-    padding-top: 100px;
+    padding-top: 120px;
     background-color: var(--white);
 }
 
@@ -31,11 +31,21 @@ h5{
     margin-left: 5vw;
 }
 
+.zagolovok-from-authors{
+    margin-left: 5vw;
+    margin-top: 120px;
+}
+
+.zagolovok-from-about-authors{
+    margin-left: 5vw;
+    margin-top: 100px;
+}
+
 .sec2{
     position: relative;
     margin-top: -210px;
     background-color: var(--dark-grey);
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 .three-plashki{
@@ -74,6 +84,66 @@ h5{
 .icon-1, .icon-2, .icon-3{
     margin-right: 28px;
 }
+
+.text-from-authors{
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 140%
+}
+
+.heart-text{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.two-authors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+.first-author, .second-author{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 40px;
+    width: 100%;
+}
+
+.photo-first-author, .photo-second-author{
+    border-radius: 40px;
+}
+
+.second-author{
+    margin-left: 16px;
+}
+
+.text-about-author{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-left: 40px;;
+}
+
+.portfolio{
+    margin-top: 16px;
+}
+
+.heart-2{
+    margin-left: 17vw;
+    margin-top: 5vw;
+}
+
+
 
 .plashka1{
     position: absolute;
@@ -199,3 +269,83 @@ h5{
 #white{
     color: white;
 }
+
+
+// _________анимация_________
+.plashka1{
+    animation-name: plashka1;
+    animation-timing-function: linear;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes plashka1 {
+    50% {
+      rotate: -10deg;
+    }
+  }
+
+  .plashka2{
+    animation-name: plashka2;
+    animation-timing-function: linear;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes plashka2 {
+    50% {
+      rotate: 12deg;
+    }
+  }
+
+  .plashka3{
+    animation-name: plashka3;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes plashka3 {
+    50% {
+      rotate: -30deg;
+    }
+  }
+
+  .plashka4{
+    animation-name: plashka4;
+    animation-timing-function: linear;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes plashka4 {
+    50% {
+      rotate: 36deg;
+    }
+  }
+
+  .plashka5{
+    animation-name: plashka5;
+    animation-timing-function: linear;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes plashka5 {
+    50% {
+      rotate: -20deg;
+    }
+  }
+
+  .plashka6{
+    animation-name: plashka6;
+    animation-timing-function: linear;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes plashka6 {
+    50% {
+      rotate: 20deg;
+    }
+  }

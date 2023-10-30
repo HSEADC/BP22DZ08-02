@@ -16,6 +16,10 @@ body {
   margin-top: 24px;
 }
 
+#otsyup3{
+  margin-top: 100px;
+}
+
 h2{
   font-size: 50px;
   font-weight: 700;
@@ -41,11 +45,16 @@ body {
 h5{
   font-family: 'Mulish', sans-serif;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 a{
-  text-decoration: none;
+  // text-decoration: none;
   color: black;
-  font-size: 24px;
+  font-size: 18px;
+}
+
+#white-active{
+  color: white;
+  font-weight: 700;
 }
