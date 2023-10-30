@@ -94,22 +94,28 @@ module.exports = {
       chunkFilename: '[id].[contenthash].css'
     }),
 
-    // Index
+    // Index заглушка
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html'
     }),
 
-      // About
-      new HtmlWebpackPlugin({
-        template: './src/about.html',
+    // About о проекте
+    new HtmlWebpackPlugin({
+       template: './src/about.html',
         filename: './about.html'
       }),
 
-    //Section
+    // firstpage 1 стра разводящая
     new HtmlWebpackPlugin({
-      template: './src/checklist.html',
-      filename: './checklist.html'
+      template: './src/firstpage.html',
+      filename: './firstpage.html'
+    }),
+
+    //Articals
+    new HtmlWebpackPlugin({
+      template: './src/articals.html',
+      filename: './articals.html'
     }),
 
      //Section
@@ -120,8 +126,8 @@ module.exports = {
 
      // Article
      new HtmlWebpackPlugin({
-      template: './src/checklist/samooborona.html',
-      filename: './checklist/samooborona.html'
+      template: './src/articals/samooborona.html',
+      filename: './articals/samooborona.html'
     }),
 
      // Article
