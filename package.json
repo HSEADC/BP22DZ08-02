@@ -1,8 +1,8 @@
 {
-  "name": "static-site-online",
+  "name": "static-site",
   "version": "0.1.0",
-  "author": "Alexandra Panova",
-  "license": "false",
+  "author": "yes",
+  "license": "true",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
     "watch": "webpack --config webpack.dev.js",
@@ -33,5 +33,7 @@
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^4.11.0",
     "webpack-merge": "^5.7.3"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:HSEADC/BP22DZ08-02.git"
 }
