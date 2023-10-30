@@ -3,6 +3,40 @@ h5{
     font-size: 18px;
     font-weight: 400;
 }
+.sec0{
+    height: 800px;
+}
+.sec1{
+    padding-top: 100px;
+    background-color: var(--white);
+}
+
+.hand-text{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.two-text{
+    margin-left: 80px;
+}
+
+.t2{
+    margin-top: 64px;;
+}
+
+.zagolovok{
+    margin-left: 5vw;
+}
+
+.sec2{
+    position: relative;
+    margin-top: -210px;
+    background-color: var(--dark-grey);
+    padding-top: 100px;
+}
 
 .plashka1{
     position: absolute;
@@ -14,6 +48,7 @@ h5{
     border-radius: 100px;;
     rotate: 19deg;
     top: 22vw;
+    left: 5vw;
     color: #0e0e0e;
     background-color:var(--green) ;
 }
@@ -104,6 +139,8 @@ h5{
 }
 
 .menu{
+    margin-left: 5vw;
+    margin-right: 5vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
