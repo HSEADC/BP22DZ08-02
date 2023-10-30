@@ -38,6 +38,43 @@ h5{
     padding-top: 100px;
 }
 
+.three-plashki{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.p1, .p2, .p3{
+    display: flex;
+    flex-direction: row;
+    width: 32%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.p1{
+    background-color: var(--dark-purple);
+}
+
+.p2{
+    background-color: var(--light-purple);
+}
+
+.p3{
+    background-color: var(--green);
+}
+
+.icon-1, .icon-2, .icon-3{
+    margin-right: 28px;
+}
+
 .plashka1{
     position: absolute;
     font-size: 24px;
@@ -152,7 +189,7 @@ h5{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 50vw;
+    width: 46vw;
 }
 
 #first{
