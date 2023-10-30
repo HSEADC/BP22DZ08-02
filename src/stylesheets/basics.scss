@@ -62,3 +62,20 @@ a{
 #bold{
   font-weight: 700;
 }
+
+.menu{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 46vw;
+}
