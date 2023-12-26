@@ -1,27 +1,54 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Медиа-сервис о личной безопасности</title>
-    <h1>здесь лежит информация про аналитику</h1>
-  <script defer src="index.4c5994d159913157be1a.js"></script><link href="index.2b6e846bf59a852027dd.css" rel="stylesheet"></head>
-  <body id="index">
-    <h1>Медиа-сервис о личной безопасности</h1>
-    <h2>Разделы</h2>
-    <ul>
-      <li><a href="checklist.html">Чек-лисы по безопасности</a></li>
-      <li><a href="tests.html">Тесты</a></li>
-    </ul>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/48a84b06ae0dfbf33c85.png" type="icon/png">
+    <title>Заглушка</title>
+<script defer src="index.4c5994d159913157be1a.js"></script><link href="index.2c91cd0a05e22167fcf5.css" rel="stylesheet"></head>
 
-    <h2>Чек-лисы по безопасности</h2>
-    <ul>
-      <li><a href="checklist/samooborona.html">Самооборона</a></li>
-    </ul>
-
-    <h2>Космические объекты</h2>
-    <ul>
-      <li><a href="tests/aboutsafe.html">О безопасности</a></li>
-    </ul>
-
-  </body>
+<body id="index">
+  <a class="ssylka" href="about.html">о проекте</a>
+    <img class="logo" src="images/2f52e399f1d03e0b7a2e.svg" alt="логотип">
+    <img class="hand" src="images/2df5544cba815efe14ec.svg" alt="рука">
+    <!--форма -->
+<form id="my-form" action="https://formspree.io/f/xqkvnowv" method="POST">
+    <input id="em" type="email" name="email" placeholder="Ваш email"/>
+    <button id="my-form-button">Узнай первым о запуске</button>
+    <p id="my-form-status"></p>
+  </form>
+  <!-- форма-->
+  <script>
+      var form = document.getElementById("my-form");
+      
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+              'Accept': 'application/json'
+          }
+        }).then(response => {
+          if (response.ok) {
+            status.innerHTML = "Thanks for your submission!";
+            form.reset()
+          } else {
+            response.json().then(data => {
+              if (Object.hasOwn(data, 'errors')) {
+                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+              } else {
+                status.innerHTML = "Oops! There was a problem submitting your form"
+              }
+            })
+          }
+        }).catch(error => {
+          status.innerHTML = "Oops! There was a problem submitting your form"
+        });
+      }
+      form.addEventListener("submit", handleSubmit)
+  </script>
+</body>
 </html>
