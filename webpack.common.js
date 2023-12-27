@@ -100,6 +100,7 @@ module.exports = {
       filename: './index.html'
     }),
 
+
     // About о проекте
     new HtmlWebpackPlugin({
        template: './src/about.html',

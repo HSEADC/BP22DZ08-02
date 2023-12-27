@@ -1,64 +1,60 @@
 * {
   box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');;
 
-html,
-body {
+html, body {
   height: 100%;
+  background-color: var(--light-grey);
+  width: 92vw;
+  margin: 0 auto;
 }
 
-#otsyup1{
-  margin-top: 16px;
+// цвета бля текстов
+.light{
+  color: var(--white);
 }
 
-#otsyup2{
-  margin-top: 24px;
-}
-
-#otsyup3{
-  margin-top: 100px;
-}
-
-h2{
-  font-size: 50px;
-  font-weight: 700;
-}
-
-h3{
-  font-size: 28px;
-  font-weight: 600;
-}
-
-h4{
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 130%;
-}
-
-body {
-  font-family: 'Mulish', sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-}
-
-h5{
-  font-family: 'Mulish', sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-}
-
+// Тексты_______________________
 a{
-  // text-decoration: none;
-  color: black;
+  font-family: 'Raleway';
+  font-weight: 500;
   font-size: 18px;
+  color: var(--black);
+  text-decoration: none;
 }
 
-#white-active{
-  color: white;
-  font-weight: 700;
+// между текстами отступы
+.text-otstup{
+  margin-left: 64px;
 }
 
-#bold{
-  font-weight: 700;
+p{
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+
+// Меню_______________________
+.menu{
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 92vw;
+  margin: 0 auto;
+  top: 16px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  border-radius: 100px;
+  background-color: var(--white);
+}
+
+.logo{
+  width: 10vw;
 }
