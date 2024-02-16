@@ -101,11 +101,11 @@ module.exports = {
     }),
 
 
-    // About о проекте
-    new HtmlWebpackPlugin({
-       template: './src/about.html',
-        filename: './about.html'
-      }),
+    // // About о проекте
+    // new HtmlWebpackPlugin({
+    //    template: './src/about.html',
+    //     filename: './about.html'
+    //   }),
 
     // firstpage 1 стра разводящая
     new HtmlWebpackPlugin({
@@ -113,11 +113,11 @@ module.exports = {
       filename: './firstpage.html'
     }),
 
-    //Articals
-    new HtmlWebpackPlugin({
-      template: './src/articals.html',
-      filename: './articals.html'
-    }),
+    // //Articals
+    // new HtmlWebpackPlugin({
+    //   template: './src/articals.html',
+    //   filename: './articals.html'
+    // }),
 
      //Section
      new HtmlWebpackPlugin({
@@ -125,17 +125,17 @@ module.exports = {
       filename: './tests.html'
     }),
 
-     // Article
-     new HtmlWebpackPlugin({
-      template: './src/articals/samooborona.html',
-      filename: './articals/samooborona.html'
-    }),
+    //  // Article
+    //  new HtmlWebpackPlugin({
+    //   template: './src/articals/samooborona.html',
+    //   filename: './articals/samooborona.html'
+    // }),
 
-     // Article
-     new HtmlWebpackPlugin({
-      template: './src/tests/aboutsafe.html',
-      filename: './tests/aboutsafe.html'
-    }),
+    //  // Article
+    //  new HtmlWebpackPlugin({
+    //   template: './src/tests/aboutsafe.html',
+    //   filename: './tests/aboutsafe.html'
+    // }),
 
     // Partials
     new HtmlWebpackPartialsPlugin([
