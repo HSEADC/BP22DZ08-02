@@ -99,3 +99,18 @@
     flex-direction: column;
     border: 1px solid var(--dark-grey);
 }
+
+// новый шрифт
+.A_font_text_subtitle{
+    display: flex;
+    flex-direction: column;
+
+    .Q_subtitle{
+        margin-top: 8px;
+    }
+}
+
+.A_font_cover{
+    border: 1px solid var(--dark-grey);
+    width: 60%;
+}
