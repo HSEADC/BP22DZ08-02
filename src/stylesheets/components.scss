@@ -1,0 +1,47 @@
+.Q_Image_cover{
+    display: flex;
+    margin: 0 auto;
+    background-image: url('./images/components/cover1.png');
+    width: 88vw;
+    height: 46vw;
+}
+
+.A_mini_title{
+    color: var(--white);
+    font-size: 52px;
+}
+
+.A_big_title{
+    color: var(--white);
+    font-size: 104px;
+}
+
+.A_title_cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.A_buttons{
+    padding: 18px 80px 18px 80px;
+    font-size: 22px;
+    border-radius: 100px;
+    background-color: var(--yellow);
+    border: none;
+}
+
+.A_title_and_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -36%;
+
+    .A_buttons{
+        margin-top: 32px;
+    }
+}
+
+.M_cover_first_pages{
+    margin-top: 100px;
+}

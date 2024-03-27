@@ -8,12 +8,15 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    index: './src/index.js',
+    dictionary: './src/dictionary.js'
   },
+
   output: {
     filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'docs')
   },
+
   module: {
     rules: [
       {
@@ -88,16 +91,25 @@ module.exports = {
       }
     ]
   },
+
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
       chunkFilename: '[id].[contenthash].css'
     }),
 
+    // Chunk dictionary
+    new HtmlWebpackPlugin({
+      template: './src/dictionary.html',
+      filename: './dictionary.html',
+      chunks: ['dictionary']
+    }),
+
     // Index заглушка
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      filename: './index.html'
+      filename: './index.html',
+      chunks: ['index']
     }),
 
 
@@ -110,7 +122,8 @@ module.exports = {
     // firstpage 1 стра разводящая
     new HtmlWebpackPlugin({
       template: './src/firstpage.html',
-      filename: './firstpage.html'
+      filename: './firstpage.html',
+      chunks: ['index']
     }),
 
     // //Articals
@@ -122,7 +135,8 @@ module.exports = {
      //Section
      new HtmlWebpackPlugin({
       template: './src/tests.html',
-      filename: './tests.html'
+      filename: './tests.html',
+      chunks: ['index']
     }),
 
     //  // Article
