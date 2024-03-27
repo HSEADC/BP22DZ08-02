@@ -1,0 +1,12 @@
+// все новые статьи
+.O_new_article{
+    display: flex;
+    flex-direction: row;
+    margin-top: 64px;
+}
+
+.O_library_fp{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
