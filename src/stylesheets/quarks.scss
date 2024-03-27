@@ -1,0 +1,73 @@
+// меню
+.Q_mtext{
+    color: var(--white);
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.Q_mtext:hover{
+    color: var(--yellow);
+}
+
+.Q_mtext:active{
+    color: var(--yellow);
+    font-weight: 500;
+}
+
+.Q_logo{
+    width: 16vw;
+}
+
+// 1 блок с фото
+.Q_Image_cover{
+    display: flex;
+    margin: 0 auto;
+    height: 50vw;
+    border: 1px solid var(--dark-grey);
+}
+
+.Q_mini_title{
+    color: var(--white);
+    font-size: 56px;
+    font-family: 'BebasNeue';
+}
+
+.Q_big_title{
+    color: var(--white);
+    font-size: 140px;
+    font-family: 'BebasNeue';
+}
+
+// заголовки под фото
+.Q_text_under_cover{
+    font-size: 26px;
+    color: var(--white);
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.Q_subtitle{
+    font-size: 22px;
+    color: var(--white);
+    opacity: 0.5;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+// текст под мини статьями на гл странице
+.Q_title_mini_article{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--white);
+}
+
+// мини статьи
+.Q_cover_mini_article{
+    border: 1px solid var(--dark-grey);
+}
+
+
+

@@ -3,3 +3,11 @@
 @import 'stylesheets/vars.scss';
 @import 'stylesheets/basics.scss';
 @import 'stylesheets/about.scss';
+@import 'stylesheets/dictionary.scss';
+@import 'stylesheets/components.scss';
+@import 'stylesheets/quarks.scss';
+@import 'stylesheets/atoms.scss';
+@import 'stylesheets/moleculs.scss';
+@import 'stylesheets/wrappers.scss';
+@import 'stylesheets/organisms.scss';
+@import 'stylesheets/superorganisms.scss';

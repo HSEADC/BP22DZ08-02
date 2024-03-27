@@ -1,0 +1,101 @@
+
+.A_menu_text{
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+}
+
+// кнопки
+.A_buttons{
+    padding: 18px 80px 18px 80px;
+    font-size: 22px;
+    border-radius: 100px;
+    background-color: var(--yellow);
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.A_buttons:hover{
+    background-color: #FF9F0A;
+}
+
+.A_buttons:active{
+    background-color: #FF8A00;
+}
+
+
+// теги
+.A_new_tags{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: var(--yellow);
+    height: 56px;
+    border: solid 1px var(--yellow);
+    border-radius: 100px;
+    width: 160px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    
+}
+
+
+// Текст
+.A_title_h3{
+    font-size: 40px;
+    color: var(--white);
+    margin-bottom: 64px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+// Текст на 1 экране
+.A_title_cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .Q_big_title{
+        margin-top: 8px;
+    }
+}
+
+// 2 блок с новыми статьями
+
+// большая статья
+.A_article_cover{
+    display: flex;
+    border: 1px solid var(--dark-grey);
+}
+
+
+.A_title_and_subtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    .Q_subtitle{
+        margin-top: 12px;
+    }
+}
+
+.A_mini_article{
+    display: flex;
+    flex-direction: column;
+   
+
+    .Q_title_mini_article{
+        margin-top: 16px;
+    }
+}
+
+.A_library_cover{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--dark-grey);
+}
