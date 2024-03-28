@@ -16,6 +16,14 @@
     font-weight: 500;
 }
 
+.Q_mtext_active{
+    color: var(--yellow);
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-decoration: none;
+}
+
 .Q_logo{
     width: 16vw;
 }
@@ -77,6 +85,16 @@
     color: var(--white);
     line-height: 120%;
     max-width: 460px;
+}
+
+// Библиотека
+// теги
+.Q_tag_text{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--white);
+    line-height: 120%;
 }
 
 

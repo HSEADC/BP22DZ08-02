@@ -126,11 +126,12 @@ module.exports = {
       chunks: ['index']
     }),
 
-    // //Articals
-    // new HtmlWebpackPlugin({
-    //   template: './src/articals.html',
-    //   filename: './articals.html'
-    // }),
+    //Articals
+    new HtmlWebpackPlugin({
+      template: './src/library.html',
+      filename: './library.html',
+      chunks: ['index']
+    }),
 
      //Section
      new HtmlWebpackPlugin({
