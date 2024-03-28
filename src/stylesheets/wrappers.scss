@@ -8,6 +8,7 @@
     margin-top: 90px;
 }
 
+
 // Новая статья
 .W_article{
     display: flex;
@@ -34,4 +35,14 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+
+//Раздел со статьями
+.W_cover_articals1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
 }

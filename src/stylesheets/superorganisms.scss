@@ -3,6 +3,10 @@
     margin-top: 120px;
 }
 
+.S_blok1{
+    margin-top: 72px;
+}
+
 
 // все статьи в библиотеке
 .S_all_library{
@@ -10,4 +14,12 @@
     flex-direction: column;
     gap: 80px;
     margin-top: 160px;
+}
+
+
+// все статьи
+.S_all_articals{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
 }
