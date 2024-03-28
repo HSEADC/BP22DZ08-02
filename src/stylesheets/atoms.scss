@@ -114,3 +114,32 @@
     border: 1px solid var(--dark-grey);
     width: 60%;
 }
+
+
+// Библиотека
+// теги
+.A_tag_library{
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px 0px 20px 0px;
+    border: 1px solid var(--dark-grey);
+    width: 640px;
+    border-radius: 300px;
+}
+
+.A_active_tag{
+    position: absolute;
+    display: flex;
+    margin-left: -25%;
+    padding: 20px 0px 20px 0px;
+    background-color: var(--dark-grey);
+    width: 280px;
+    align-items: start;
+    justify-content: center;
+    border: 1px solid var(--dark-grey);
+    border-radius: 300px;
+}
