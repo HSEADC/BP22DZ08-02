@@ -10,3 +10,11 @@
     flex-direction: column;
     gap: 56px;
 }
+
+// все статьи в библиотеке
+.O_row_library{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
