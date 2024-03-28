@@ -129,34 +129,6 @@
     border-radius: 300px;
 }
 
-.A_active_tag_fonts{
-    position: absolute;
-    display: flex;
-    margin-left: -25%;
-    padding: 20px 0px 20px 0px;
-    background-color: var(--dark-grey);
-    width: 280px;
-    align-items: start;
-    justify-content: center;
-    border: 1px solid var(--dark-grey);
-    border-radius: 300px;
-    cursor: pointer;
-}
-
-.A_active_tag_colors{
-    position: absolute;
-    display: flex;
-    margin-left: 19%;
-    padding: 20px 0px 20px 0px;
-    background-color: var(--dark-grey);
-    width: 350px;
-    align-items: start;
-    justify-content: center;
-    border: 1px solid var(--dark-grey);
-    border-radius: 300px;
-    cursor: pointer;
-}
-
 .A_tags{
     display: flex;
     flex-direction: row;
@@ -164,5 +136,45 @@
 }
 
 .A_cover_library{
+    border: 1px solid var(--dark-grey);
+}
+
+// Раздел со статьями
+// теги
+.A_tag_articals{
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid var(--dark-grey);
+    width: 900px;
+    border-radius: 300px;
+}
+
+.A_time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.A_title_and_subtitle_art{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    .A_time{
+        margin-top: 12px;
+    }
+}
+
+.A_tags_art{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.A_cover_art{
     border: 1px solid var(--dark-grey);
 }
