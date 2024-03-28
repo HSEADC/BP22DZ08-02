@@ -147,6 +147,13 @@ module.exports = {
       chunks: ['index']
     }),
 
+     //Section
+      new HtmlWebpackPlugin({
+        template: './src/art1.html',
+        filename: './art1.html',
+        chunks: ['index']
+    }),
+
        //Section
        new HtmlWebpackPlugin({
         template: './src/articals_color.html',

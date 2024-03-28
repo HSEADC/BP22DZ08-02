@@ -101,3 +101,31 @@
         margin-top: 16px; 
     }
 }
+
+
+// Страницв статьи
+.M_art_title_text{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.M_text_symbols{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.M_title_subtitle_button_art{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.M_text_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
