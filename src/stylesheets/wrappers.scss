@@ -28,3 +28,10 @@
     justify-content: space-between;
     align-items: center;
 }
+
+//Все статьи в библиотеке
+.W_one_library{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

@@ -39,7 +39,7 @@
     width: 160px;
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 22px;
+
     
 }
 
@@ -142,4 +142,10 @@
     justify-content: center;
     border: 1px solid var(--dark-grey);
     border-radius: 300px;
+}
+
+.A_tags{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
 }
