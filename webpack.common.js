@@ -126,10 +126,17 @@ module.exports = {
       chunks: ['index']
     }),
 
-    //Articals
+    //Библиотека шрифтов
     new HtmlWebpackPlugin({
       template: './src/library.html',
       filename: './library.html',
+      chunks: ['index']
+    }),
+
+     //Библиотека цветов
+     new HtmlWebpackPlugin({
+      template: './src/library_color.html',
+      filename: './library_color.html',
       chunks: ['index']
     }),
 

@@ -124,14 +124,12 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 100px;
-    padding: 20px 0px 20px 0px;
     border: 1px solid var(--dark-grey);
-    width: 640px;
+    width: 600px;
     border-radius: 300px;
 }
 
-.A_active_tag{
+.A_active_tag_fonts{
     position: absolute;
     display: flex;
     margin-left: -25%;
@@ -142,10 +140,29 @@
     justify-content: center;
     border: 1px solid var(--dark-grey);
     border-radius: 300px;
+    cursor: pointer;
+}
+
+.A_active_tag_colors{
+    position: absolute;
+    display: flex;
+    margin-left: 19%;
+    padding: 20px 0px 20px 0px;
+    background-color: var(--dark-grey);
+    width: 350px;
+    align-items: start;
+    justify-content: center;
+    border: 1px solid var(--dark-grey);
+    border-radius: 300px;
+    cursor: pointer;
 }
 
 .A_tags{
     display: flex;
     flex-direction: row;
     gap: 16px;
+}
+
+.A_cover_library{
+    border: 1px solid var(--dark-grey);
 }

@@ -90,11 +90,34 @@
 // Библиотека
 // теги
 .Q_tag_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 24px;
     color: var(--white);
     line-height: 120%;
+    cursor: pointer;
+    padding: 20px 0px 20px 0px;
+    width: 360px;
+    border-radius: 300px;
+}
+
+.Q_tag_text_active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--white);
+    line-height: 120%;
+    cursor: pointer;
+    padding: 20px 0px 20px 0px;
+    width: 360px;
+    border-radius: 300px;
+    background-color: var(--dark-grey);
 }
 
 // статьи в библиотеке
