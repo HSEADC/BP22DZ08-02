@@ -147,6 +147,21 @@ module.exports = {
       chunks: ['index']
     }),
 
+       //Section
+       new HtmlWebpackPlugin({
+        template: './src/articals_color.html',
+        filename: './articals_color.html',
+        chunks: ['index']
+      }),
+
+    
+       //Section
+       new HtmlWebpackPlugin({
+        template: './src/articals_all.html',
+        filename: './articals_all.html',
+        chunks: ['index']
+      }),
+
     //  // Article
     //  new HtmlWebpackPlugin({
     //   template: './src/articals/samooborona.html',
