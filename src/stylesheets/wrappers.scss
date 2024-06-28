@@ -1,73 +1,82 @@
-
-// 1 экран
-.W_cover_first_pages{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 90px;
-}
-
-
-// Новая статья
-.W_article{
+.W_article_title{
     display: flex;
     flex-direction: column;
-    width: 210%;
-}
-
-//Библиотека на главной странице
-.W_library{
-    display: flex;
-    flex-direction: column;
-}
-
-//Новый шрифт
-.W_fonts_fp{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-//Все статьи в библиотеке
-.W_one_library{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    gap: 32px;
 }
 
 
-//Раздел со статьями
-.W_cover_articals1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 100px;
-}
-
-.W_art_block1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    margin-top: 100px;
-
-    .A_cover_in_art{
-        width: 50%;
-    }
-}
 
 
-.W_img_text_button{
-    margin-top: 48px;
-}
 
-.W_footer{
-    margin-top: 160px;
-    padding-bottom: 40px;
-    .A_f{
-        margin-bottom: 16px;
-    }
-}
+// // 1 экран
+// .W_cover_first_pages{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     margin-top: 90px;
+// }
+
+
+// // Новая статья
+// .W_article{
+//     display: flex;
+//     flex-direction: column;
+//     width: 210%;
+// }
+
+// //Библиотека на главной странице
+// .W_library{
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// //Новый шрифт
+// .W_fonts_fp{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+// //Все статьи в библиотеке
+// .W_one_library{
+//     display: flex;
+//     flex-direction: column;
+//     width: 100%;
+// }
+
+
+// //Раздел со статьями
+// .W_cover_articals1{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     margin-top: 100px;
+// }
+
+// .W_art_block1{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     flex-direction: row;
+//     margin-top: 100px;
+
+//     .A_cover_in_art{
+//         width: 50%;
+//     }
+// }
+
+
+// .W_img_text_button{
+//     margin-top: 48px;
+// }
+
+// .W_footer{
+//     margin-top: 160px;
+//     padding-bottom: 40px;
+//     .A_f{
+//         margin-bottom: 16px;
+//     }
+// }

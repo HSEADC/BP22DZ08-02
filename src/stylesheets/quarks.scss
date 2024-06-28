@@ -1,266 +1,389 @@
-// меню
-.Q_mtext{
-    color: var(--white);
-    font-size: 18px;
-    font-family: 'Montserrat';
-    font-weight: 400;
-    text-decoration: none;
-}
-
-.Q_mtext:hover{
-    color: var(--yellow);
-}
-
-.Q_mtext:active{
-    color: var(--yellow);
-    font-weight: 500;
-}
-
-.Q_mtext_active{
-    color: var(--yellow);
-    font-size: 18px;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    text-decoration: none;
-}
-
-.Q_logo{
-    width: 16vw;
-}
-
-// 1 блок с фото
-.Q_Image_cover{
-    display: flex;
-    margin: 0 auto;
-    height: 50vw;
-    border: 1px solid var(--dark-grey);
-}
-
+// ————————————Тексты————————————
 .Q_mini_title{
+    font-family:'BebasNeue';
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 52px;
     color: var(--white);
-    font-size: 56px;
-    font-family: 'BebasNeue';
 }
 
 .Q_big_title{
-    color: var(--white);
-    font-size: 140px;
-    font-family: 'BebasNeue';
-}
-
-// заголовки под фото
-.Q_text_under_cover{
-    font-size: 26px;
-    color: var(--white);
-    font-family: 'Montserrat';
-    font-weight: 600;
-}
-
-.Q_subtitle{
-    font-size: 22px;
-    color: var(--white);
-    opacity: 0.5;
-    font-family: 'Montserrat';
+    font-family:'BebasNeue';
     font-weight: 400;
+    font-size: 104px;
+    line-height: 104px;
+    color: var(--white);
 }
 
-// текст под мини статьями на гл странице
-.Q_title_mini_article{
+.Q_text_icon{
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 18px;
-    color: var(--white);
-}
+    line-height: 25px;
+    color: var(--medium-grey);
+}// текст для вернуться назад и про время
 
-// мини статьи
-.Q_cover_mini_article{
-    border: 1px solid var(--dark-grey);
-}
-
-// Новый шрифт
-.Q_title_h4{
-    font-family: 'Montserrat';
-    font-weight: 600;
+.Q_title_article{
+    font-family:'BebasNeue';
+    font-weight: 400;
     font-size: 64px;
+    line-height: 64px;
     color: var(--white);
-    line-height: 120%;
-    max-width: 460px;
 }
 
-// Библиотека
-// теги
-.Q_tag_text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.Q_text_article{
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 24px;
-    color: var(--white);
-    line-height: 120%;
-    cursor: pointer;
-    padding: 20px 0px 20px 0px;
-    width: 360px;
-    border-radius: 300px;
-}
-
-.Q_tag_text_active{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 24px;
-    color: var(--white);
-    line-height: 120%;
-    cursor: pointer;
-    padding: 20px 0px 20px 0px;
-    width: 360px;
-    border-radius: 300px;
-    background-color: var(--dark-grey);
-}
-
-// статьи в библиотеке
-.Q_tags{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    color: var(--yellow);
-    height: 56px;
-    border: solid 1px var(--yellow);
-    border-radius: 100px;
-    width: 200px;
-    font-family: 'Montserrat';
-    font-weight: 500;
-}
-
-// Раздел со статьями
-// теги
-.Q_tag_text_articals{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 24px;
-    color: var(--white);
-    line-height: 120%;
-    cursor: pointer;
-    padding: 20px 0px 20px 0px;
-    width: 300px;
-    border-radius: 300px;
-}
-
-.Q_tag_text_articals_active{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 24px;
-    color: var(--white);
-    line-height: 120%;
-    cursor: pointer;
-    padding: 20px 0px 20px 0px;
-    width: 300px;
-    border-radius: 300px;
-    background-color: var(--dark-grey);
-}
-
-
-// Раздел со статьями
-.Q_Image_cover_articals1{
-    margin: 0 auto;
-    width: 100%;
-    border: 1px solid var(--dark-grey);
-}
-
-.Q_mini_title_articals{
-    color: var(--white);
-    font-size: 40px;
-    font-family: 'BebasNeue';
-}
-
-.Q_big_title_articals{
-    color: var(--white);
-    font-size: 100px;
-    font-family: 'BebasNeue';
-}
-
-.Q_time{
-    width: 32px;
-    opacity: 0.5;
-}
-
-.Q_text_under_cover_art{
-    font-size: 22px;
-    color: var(--white);
-    font-family: 'Montserrat';
-    font-weight: 600;
-    line-height: 130%;
-}
-
-.Q_subtitle_art{
     font-size: 20px;
+    line-height: 28px;
     color: var(--white);
-    opacity: 0.5;
+    max-width: 40vw;
+    margin-top: 16px;
+}
+
+.Q_caption{
     font-family: 'Montserrat';
     font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--medium-grey);
 }
 
-.Q_tags_art{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    color: var(--yellow);
-    height: 48px;
-    border: solid 1px var(--yellow);
-    border-radius: 100px;
-    width: 140px;
-    font-family: 'Montserrat';
-    font-weight: 500;
-}
-
-
-
-
-// Страница статьи
-.Q_art_tag{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    color: var(--yellow);
-    height: 56px;
-    border: solid 1px var(--yellow);
-    border-radius: 100px;
-    width: 300px;
-    font-family: 'Montserrat';
-    font-weight: 500;
-}
-
-.Q_title_art{
-    color: var(--white);
-    font-size: 64px;
-    font-family: 'BebasNeue';
-} 
-
-.Q_text{
-    font-family: 'Montserrat';
+.Q_big_text{
+    font-family:'BebasNeue';
     font-weight: 400;
+    font-size: 150px;
+    line-height: 150px;
+    color: var(--white);
+}
+
+.Q_text_under_cover{
+    font-family: 'Montserrat';
+    font-weight: 600;
     font-size: 22px;
-    line-height: 140%;
+    line-height: 28px;
     color: var(--white);
+}// заголовок под обложки статей
+
+.Q_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--white);
+}// заголовок обычный
+
+
+
+
+
+// страница со статьей
+// —————————1 блок—————————
+.Q_icon_arrow{
+    width: 2vw;
 }
 
-.Q_big_title_art{
-    color: var(--white);
-    font-size: 160px;
-    font-family: 'BebasNeue';
+.Q_icon_time{
+    width: 2vw;
 }
 
-.Q_logo_footer{
-    opacity: 0.2;
+// фото
+.Q_img_cover, .Q_image{
+    width: 100%;
+    border: 1px solid var(--dark-greyy);
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // меню
+// .Q_mtext{
+//     color: var(--white);
+//     font-size: 18px;
+//     font-family: 'Montserrat';
+//     font-weight: 400;
+//     text-decoration: none;
+// }
+
+// .Q_mtext:hover{
+//     color: var(--yellow);
+// }
+
+// .Q_mtext:active{
+//     color: var(--yellow);
+//     font-weight: 500;
+// }
+ 
+// .Q_mtext_active{
+//     color: var(--yellow);
+//     font-size: 18px;
+//     font-family: 'Montserrat';
+//     font-weight: 500;
+//     text-decoration: none;
+// }
+
+// .Q_logo{
+//     width: 16vw;
+// }
+
+// // 1 блок с фото
+// .Q_Image_cover{
+//     display: flex;
+//     margin: 0 auto;
+//     height: 50vw;
+//     border: 1px solid var(--dark-grey);
+// }
+
+// .Q_mini_title{
+//     color: var(--white);
+//     font-size: 56px;
+//     font-family: 'BebasNeue';
+// }
+
+// .Q_big_title{
+//     color: var(--white);
+//     font-size: 140px;
+//     font-family: 'BebasNeue';
+// }
+
+// // заголовки под фото
+// .Q_text_under_cover{
+//     font-size: 26px;
+//     color: var(--white);
+//     font-family: 'Montserrat';
+//     font-weight: 600;
+// }
+
+// .Q_subtitle{
+//     font-size: 22px;
+//     color: var(--white);
+//     opacity: 0.5;
+//     font-family: 'Montserrat';
+//     font-weight: 400;
+// }
+
+// // текст под мини статьями на гл странице
+// .Q_title_mini_article{
+//     font-family: 'Montserrat';
+//     font-weight: 600;
+//     font-size: 18px;
+//     color: var(--white);
+// }
+
+// // мини статьи
+// .Q_cover_mini_article{
+//     border: 1px solid var(--dark-grey);
+// }
+
+// // Новый шрифт
+// .Q_title_h4{
+//     font-family: 'Montserrat';
+//     font-weight: 600;
+//     font-size: 64px;
+//     color: var(--white);
+//     line-height: 120%;
+//     max-width: 460px;
+// }
+
+// // Библиотека
+// // теги
+// .Q_tag_text{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     font-family: 'Montserrat';
+//     font-weight: 400;
+//     font-size: 24px;
+//     color: var(--white);
+//     line-height: 120%;
+//     cursor: pointer;
+//     padding: 20px 0px 20px 0px;
+//     width: 360px;
+//     border-radius: 300px;
+// }
+
+// .Q_tag_text_active{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     font-family: 'Montserrat';
+//     font-weight: 400;
+//     font-size: 24px;
+//     color: var(--white);
+//     line-height: 120%;
+//     cursor: pointer;
+//     padding: 20px 0px 20px 0px;
+//     width: 360px;
+//     border-radius: 300px;
+//     background-color: var(--dark-grey);
+// }
+
+// // статьи в библиотеке
+// .Q_tags{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     font-size: 22px;
+//     color: var(--yellow);
+//     height: 56px;
+//     border: solid 1px var(--yellow);
+//     border-radius: 100px;
+//     width: 200px;
+//     font-family: 'Montserrat';
+//     font-weight: 500;
+// }
+
+// // Раздел со статьями
+// // теги
+// .Q_tag_text_articals{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     font-family: 'Montserrat';
+//     font-weight: 400;
+//     font-size: 24px;
+//     color: var(--white);
+//     line-height: 120%;
+//     cursor: pointer;
+//     padding: 20px 0px 20px 0px;
+//     width: 300px;
+//     border-radius: 300px;
+// }
+
+// .Q_tag_text_articals_active{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     font-family: 'Montserrat';
+//     font-weight: 400;
+//     font-size: 24px;
+//     color: var(--white);
+//     line-height: 120%;
+//     cursor: pointer;
+//     padding: 20px 0px 20px 0px;
+//     width: 300px;
+//     border-radius: 300px;
+//     background-color: var(--dark-grey);
+// }
+
+
+// // Раздел со статьями
+// .Q_Image_cover_articals1{
+//     margin: 0 auto;
+//     width: 100%;
+//     border: 1px solid var(--dark-grey);
+// }
+
+// .Q_mini_title_articals{
+//     color: var(--white);
+//     font-size: 40px;
+//     font-family: 'BebasNeue';
+// }
+
+// .Q_big_title_articals{
+//     color: var(--white);
+//     font-size: 100px;
+//     font-family: 'BebasNeue';
+// }
+
+// .Q_time{
+//     width: 32px;
+//     opacity: 0.5;
+// }
+
+// .Q_text_under_cover_art{
+//     font-size: 22px;
+//     color: var(--white);
+//     font-family: 'Montserrat';
+//     font-weight: 600;
+//     line-height: 130%;
+// }
+
+// .Q_subtitle_art{
+//     font-size: 20px;
+//     color: var(--white);
+//     opacity: 0.5;
+//     font-family: 'Montserrat';
+//     font-weight: 400;
+// }
+
+// .Q_tags_art{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     font-size: 18px;
+//     color: var(--yellow);
+//     height: 48px;
+//     border: solid 1px var(--yellow);
+//     border-radius: 100px;
+//     width: 140px;
+//     font-family: 'Montserrat';
+//     font-weight: 500;
+// }
+
+
+
+
+// // Страница статьи
+// .Q_art_tag{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     font-size: 22px;
+//     color: var(--yellow);
+//     height: 56px;
+//     border: solid 1px var(--yellow);
+//     border-radius: 100px;
+//     width: 300px;
+//     font-family: 'Montserrat';
+//     font-weight: 500;
+// }
+
+// .Q_title_art{
+//     color: var(--white);
+//     font-size: 64px;
+//     font-family: 'BebasNeue';
+// } 
+
+// .Q_text{
+//     font-family: 'Montserrat';
+//     font-weight: 400;
+//     font-size: 22px;
+//     line-height: 140%;
+//     color: var(--white);
+// }
+
+// .Q_big_title_art{
+//     color: var(--white);
+//     font-size: 160px;
+//     font-family: 'BebasNeue';
+// }
+
+// .Q_logo_footer{
+//     opacity: 0.2;
+// }
