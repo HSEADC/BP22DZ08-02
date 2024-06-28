@@ -41,7 +41,32 @@
 }
 
 
+.M_switch{
+    display: flex;
+    justify-content: center;
+}
 
+.M_title_cover_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .A_buttons{
+        margin-top: 16px;
+    }
+
+    .A_title_cover{
+        margin-top: -30vw;
+    }
+}
+
+.M_article{
+    width: 28vw;
+
+    .A_title_and_time{
+        margin-top: 8px;
+    }
+}
 
 
 // .M_menu{
