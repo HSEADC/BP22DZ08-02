@@ -1,29 +1,74 @@
-// все новые статьи
-.O_new_article{
-    display: flex;
-    flex-direction: row;
-    margin-top: 64px;
+.artbl1{
+    margin-top: 120px;
 }
 
-.O_library_fp{
+
+.O_cover_and_tags{
+    .M_cover_article{
+        margin-top: 24px;
+    }
+}
+
+.O_big_text_img{
+    .Q_big_text{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Q_text_article{
+        max-width: 44vw;
+    }
+
     display: flex;
     flex-direction: column;
-    gap: 56px;
+    gap: 8px;
 }
 
-// все статьи в библиотеке
-.O_row_library{
+.O_content_block{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 40px;
+    flex-direction: column;
+    gap: 32px;
 }
 
-
-// все статьи
-.O_pow_articals{
+.O_all_button{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 24px;
+    flex-direction: column;
+    gap: 16px;
+
+    .Q_image{
+        width: 100%;
+    }
 }
+
+
+
+
+// // все новые статьи
+// .O_new_article{
+//     display: flex;
+//     flex-direction: row;
+//     margin-top: 64px;
+// }
+
+// .O_library_fp{
+//     display: flex;
+//     flex-direction: column;
+//     gap: 56px;
+// }
+
+// // все статьи в библиотеке
+// .O_row_library{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     gap: 40px; 
+// }
+
+
+// // все статьи
+// .O_pow_articals{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     gap: 24px;
+// }

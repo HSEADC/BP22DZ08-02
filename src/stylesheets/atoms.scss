@@ -1,13 +1,29 @@
-
-.A_menu_text{
+// ———————кнопка вернуться назад и время——————
+.A_arrow_button, .A_time{
     display: flex;
     flex-direction: row;
-    gap: 72px;
+    gap: 8px;
+    align-items: center;
 }
 
-// кнопки
+.A_time_mini{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+
+    .Q_icon_time{
+        width: 1.5vw;
+    }
+}
+
+// ———————кнопки——————
 .A_buttons{
-    padding: 18px 80px 18px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28vw;
+    padding: 18px 0px 18px 0px;
     font-size: 22px;
     border-radius: 100px;
     background-color: var(--yellow);
@@ -16,192 +32,276 @@
     font-weight: 600;
     cursor: pointer;
 }
-
+    
 .A_buttons:hover{
     background-color: #FF9F0A;
 }
-
-.A_buttons:active{
-    background-color: #FF8A00;
-}
-
-
-// теги
-.A_new_tags{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    color: var(--yellow);
-    height: 56px;
-    border: solid 1px var(--yellow);
-    border-radius: 100px;
-    width: 160px;
-    font-family: 'Montserrat';
-    font-weight: 500;
-
     
+.A_buttons:active{
+       background-color: #FF8A00;
 }
 
 
-// Текст
-.A_title_h3{
-    font-size: 40px;
-    color: var(--white);
-    margin-bottom: 64px;
-    font-family: 'Montserrat';
-    font-weight: 700;
-}
-
-// Текст на 1 экране
+// ———————заголовки как титры в каждой статье——————
 .A_title_cover{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: -22vw;
+}
+
+// ———————теги——————
+
+.A_tags_under_cover{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    color: var(--yellow);
+    padding: 16px 0px 16px 0px;
+    border: 1px solid var(--yellow);
+    border-radius: 100px;
+    width: 18vw;
+    display: flex;
     justify-content: center;
     align-items: center;
-
-    .Q_big_title{
-        margin-top: 8px;
-    }
 }
 
-// 2 блок с новыми статьями
-
-// большая статья
-.A_article_cover{
-    display: flex;
-    border: 1px solid var(--dark-grey);
-    cursor: pointer;
-}
-
-
-.A_title_and_subtitle{
+// ——2 блок в статье——
+.A_img_caption{
     display: flex;
     flex-direction: column;
-    align-items: left;
-    cursor: pointer;
-
-    .Q_subtitle{
-        margin-top: 12px;
-    }
+    justify-content: start;
+    gap: 8px;
 }
 
-.A_mini_article{
+.A_title_text{
     display: flex;
     flex-direction: column;
-   
+    justify-content: start;
 
-    .Q_title_mini_article{
-        margin-top: 16px;
-    }
 }
-
-.A_library_cover{
+// ——другие статьи——
+.A_title_and_time{
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--dark-grey);
-    cursor: pointer;
-}
-
-// новый шрифт
-.A_font_text_subtitle{
-    display: flex;
-    flex-direction: column;
-
-    .Q_subtitle{
-        margin-top: 8px;
-    }
-}
-
-.A_font_cover{
-    border: 1px solid var(--dark-grey);
-    width: 60%;
-}
-
-
-// Библиотека
-// теги
-.A_tag_library{
-    position: absolute;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border: 1px solid var(--dark-grey);
-    width: 600px;
-    border-radius: 300px;
-}
-
-.A_tags{
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-}
-
-.A_cover_library{
-    border: 1px solid var(--dark-grey);
-}
-
-// Раздел со статьями
-// теги
-.A_tag_articals{
-    position: absolute;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border: 1px solid var(--dark-grey);
-    width: 900px;
-    border-radius: 300px;
-}
-
-.A_time{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     gap: 12px;
 }
 
-.A_title_and_subtitle_art{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-
-    .A_time{
-        margin-top: 12px;
-    }
-}
-
-.A_tags_art{
-    display: flex;
-    flex-direction: row;
-    gap: 18px;
-}
 
 
-// Страница статьи
-.A_tag_art{
-    margin-top: 24px;
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-}
 
-.A_text_art{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
 
-.A_cover_in_art{
-    border: 1px solid var(--dark-grey);
-}
 
-.A_f{
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 140%;
-    color: var(--white);
-}
+
+
+
+
+
+// .A_menu_text{
+//     display: flex;
+//     flex-direction: row;
+//     gap: 72px;
+// } 
+
+// // кнопки
+// .A_buttons{
+//     padding: 18px 80px 18px 80px;
+//     font-size: 22px;
+//     border-radius: 100px;
+//     background-color: var(--yellow);
+//     border: none;
+//     font-family: 'Montserrat';
+//     font-weight: 600;
+//     cursor: pointer;
+// }
+
+// .A_buttons:hover{
+//     background-color: #FF9F0A;
+// }
+
+// .A_buttons:active{
+//     background-color: #FF8A00;
+// }
+
+
+// // теги
+// .A_new_tags{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     font-size: 22px;
+//     color: var(--yellow);
+//     height: 56px;
+//     border: solid 1px var(--yellow);
+//     border-radius: 100px;
+//     width: 160px;
+//     font-family: 'Montserrat';
+//     font-weight: 500;
+
+    
+// }
+
+
+// // Текст
+// .A_title_h3{
+//     font-size: 40px;
+//     color: var(--white);
+//     margin-bottom: 64px;
+//     font-family: 'Montserrat';
+//     font-weight: 700;
+// }
+
+// // Текст на 1 экране
+// .A_title_cover{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+
+//     .Q_big_title{
+//         margin-top: 8px;
+//     }
+// }
+
+// // 2 блок с новыми статьями
+
+// // большая статья
+// .A_article_cover{
+//     display: flex;
+//     border: 1px solid var(--dark-grey);
+//     cursor: pointer;
+// }
+
+
+// .A_title_and_subtitle{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: left;
+//     cursor: pointer;
+
+//     .Q_subtitle{
+//         margin-top: 12px;
+//     }
+// }
+
+// .A_mini_article{
+//     display: flex;
+//     flex-direction: column;
+   
+
+//     .Q_title_mini_article{
+//         margin-top: 16px;
+//     }
+// }
+
+// .A_library_cover{
+//     display: flex;
+//     flex-direction: column;
+//     border: 1px solid var(--dark-grey);
+//     cursor: pointer;
+// }
+
+// // новый шрифт
+// .A_font_text_subtitle{
+//     display: flex;
+//     flex-direction: column;
+
+//     .Q_subtitle{
+//         margin-top: 8px;
+//     }
+// }
+
+// .A_font_cover{
+//     border: 1px solid var(--dark-grey);
+//     width: 60%;
+// }
+
+
+// // Библиотека
+// // теги
+// .A_tag_library{
+//     position: absolute;
+//     align-items: center;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     border: 1px solid var(--dark-grey);
+//     width: 600px;
+//     border-radius: 300px;
+// }
+
+// .A_tags{
+//     display: flex;
+//     flex-direction: row;
+//     gap: 16px;
+// }
+
+// .A_cover_library{
+//     border: 1px solid var(--dark-grey);
+// }
+
+// // Раздел со статьями
+// // теги
+// .A_tag_articals{
+//     position: absolute;
+//     align-items: center;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     border: 1px solid var(--dark-grey);
+//     width: 900px;
+//     border-radius: 300px;
+// }
+
+// .A_time{
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     gap: 12px;
+// }
+
+// .A_title_and_subtitle_art{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: left;
+
+//     .A_time{
+//         margin-top: 12px;
+//     }
+// }
+
+// .A_tags_art{
+//     display: flex;
+//     flex-direction: row;
+//     gap: 18px;
+// }
+
+
+// // Страница статьи
+// .A_tag_art{
+//     margin-top: 24px;
+//     display: flex;
+//     flex-direction: row;
+//     gap: 16px;
+// }
+
+// .A_text_art{
+//     display: flex;
+//     flex-direction: column;
+//     gap: 24px;
+// }
+
+// .A_cover_in_art{
+//     border: 1px solid var(--dark-grey);
+// }
+
+// .A_f{
+//     font-family: 'Montserrat';
+//     font-weight: 500;
+//     font-size: 18px;
+//     line-height: 140%;
+//     color: var(--white);
+// }
 

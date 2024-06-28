@@ -1,32 +1,55 @@
-// отступы блоков
-.S_blok{
+
+.S_art{
     margin-top: 120px;
-}
-
-.S_blok1{
-    margin-top: 72px;
-}
-
-
-// все статьи в библиотеке
-.S_all_library{
     display: flex;
     flex-direction: column;
-    gap: 80px;
-    margin-top: 160px;
+    gap: 120px;
 }
 
-
-// все статьи
-.S_all_articals{
+.S_article{
     display: flex;
-    flex-direction: column;
-    gap: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
 }
 
-.S_all{
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    margin-top: 120px;
-}
+
+
+
+
+
+
+
+
+// // отступы блоков
+// .S_blok{
+//     margin-top: 120px;
+// }
+
+// .S_blok1{
+//     margin-top: 72px;
+// }
+
+
+// // все статьи в библиотеке
+// .S_all_library{
+//     display: flex;
+//     flex-direction: column;
+//     gap: 80px;
+//     margin-top: 160px;
+// }
+
+
+// // все статьи
+// .S_all_articals{
+//     display: flex;
+//     flex-direction: column;
+//     gap: 80px;
+// }
+
+// .S_all{
+//     display: flex;
+//     flex-direction: column;
+//     gap: 80px;
+//     margin-top: 120px;
+// }

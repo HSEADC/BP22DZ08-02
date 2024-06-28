@@ -1,131 +1,176 @@
-
-.M_menu{
-    position: fixed;
-    width: 88vw;
+.M_back_time{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 24px;
-    padding-top: 24px;
-    background-color: var(--main-grey);
-    top: 0;
 }
 
-// Текст и кнопка на 1 экране
-.M_title_and_button{
-    position: absolute;
+// ———————— Текст как титры и обложка ———————— 
+.M_tags_under_cover{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    .A_buttons{
-        margin-top: 16px;
-    }
+    flex-direction: row;
+    gap: 1vw;
+    margin-top: 12vw;
 }
 
-// Новая статья большая с тегом новая
-.M_title_subtitle_newtag{
+.M_content_author{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 24px;
-}
-
-// 2 мини статьи
-.M_mini_article{
-    display: flex;
-    flex-direction: column;
-    margin-left: 24px;
-    justify-content: space-between;
-    width: 100%;
-    opacity: 0.3;
-}
-
-// библиотека на главной стр
-.M_title_subtitle_button{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 24px;
-
-}
-
-
-//Новый шрифт
-.M_fonts_text{
-    .A_buttons{
-        margin-top: 48px;
-    }
-}
-
-
-// Библиотека
-// теги
-.M_tag_library{
-    margin-top: 120px;
-    display: flex;
     align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
-// все статьи библиотеки
-.M_text_tags_library{
-    .A_tags{
-        margin-top: 32px;
-    }
-
-    .A_title_and_subtitle{
-        margin-top: 24px; 
-    }
-}
-
-// Раздел со статьями
-// теги
-.M_tag_articals{
-    margin-top: 120px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-
-.M_text_tags_art{
-    .A_tags_art{
-        margin-top: 24px;
-    }
-
-    .A_title_and_subtitle_art{
-        margin-top: 16px; 
-    }
-}
-
-
-// Страницв статьи
-.M_art_title_text{
+.M_content_title_img{
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.M_text_symbols{
+.M_content_img_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// ———————— Текст под статьей с кнопкой (другие статьи) ———————— 
+.M_title_and_time_button{
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    gap: 24px;
 }
 
-.M_title_subtitle_button_art{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 24px;
-}
 
-.M_text_footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
+
+
+// .M_menu{
+//     position: fixed;
+//     width: 88vw;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding-bottom: 24px;
+//     padding-top: 24px;
+//     background-color: var(--main-grey);
+//     top: 0;
+// } 
+
+// // Текст и кнопка на 1 экране
+// .M_title_and_button{
+//     position: absolute;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+
+//     .A_buttons{
+//         margin-top: 16px;
+//     }
+// }
+
+// // Новая статья большая с тегом новая
+// .M_title_subtitle_newtag{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     margin-top: 24px;
+// }
+
+// // 2 мини статьи
+// .M_mini_article{
+//     display: flex;
+//     flex-direction: column;
+//     margin-left: 24px;
+//     justify-content: space-between;
+//     width: 100%;
+//     opacity: 0.3;
+// }
+
+// // библиотека на главной стр
+// .M_title_subtitle_button{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     margin-top: 24px;
+
+// }
+
+
+// //Новый шрифт
+// .M_fonts_text{
+//     .A_buttons{
+//         margin-top: 48px;
+//     }
+// }
+
+
+// // Библиотека
+// // теги
+// .M_tag_library{
+//     margin-top: 120px;
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     justify-content: flex-start;
+// }
+
+// // все статьи библиотеки
+// .M_text_tags_library{
+//     .A_tags{
+//         margin-top: 32px;
+//     }
+
+//     .A_title_and_subtitle{
+//         margin-top: 24px; 
+//     }
+// }
+
+// // Раздел со статьями
+// // теги
+// .M_tag_articals{
+//     margin-top: 120px;
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     justify-content: flex-start;
+// }
+
+
+// .M_text_tags_art{
+//     .A_tags_art{
+//         margin-top: 24px;
+//     }
+
+//     .A_title_and_subtitle_art{
+//         margin-top: 16px; 
+//     }
+// }
+
+
+// // Страницв статьи
+// .M_art_title_text{
+//     display: flex;
+//     flex-direction: column;
+//     gap: 32px;
+// }
+
+// .M_text_symbols{
+//     display: flex;
+//     flex-direction: column;
+//     gap: 64px;
+// }
+
+// .M_title_subtitle_button_art{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     margin-top: 24px;
+// }
+
+// .M_text_footer{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+// }
 

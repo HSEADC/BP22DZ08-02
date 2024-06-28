@@ -1,1 +1,58 @@
 //меню
+.Q_mtext{
+    color: var(--white);
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.Q_logo{
+     width: 18vw;
+}
+
+.A_menu_text{
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+}
+
+.M_menu{
+    position: fixed;
+    width: 88vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+    padding-top: 32px;
+    background-color: var(--main-grey);
+    top: 0;
+}
+
+//footer
+.Q_logo_footer{
+    opacity: 0.2;
+}
+
+.A_f{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--white);
+}
+
+.M_text_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.W_footer{
+    margin-top: 160px;
+    padding-bottom: 40px;
+    .A_f{
+        margin-bottom: 16px;
+    }
+}
