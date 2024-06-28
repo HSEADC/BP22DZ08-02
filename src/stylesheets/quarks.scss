@@ -90,9 +90,37 @@
 // фото
 .Q_img_cover, .Q_image{
     width: 100%;
-    border: 1px solid var(--dark-greyy);
-
+    outline: 1px solid var(--dark-grey);
+    outline-offset: -1px;
 }
+
+
+
+// —————————Переключатель—————————
+.Q_switch_color, .Q_switch_color_active, .Q_switch_font, .Q_switch_font_active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--white);
+    padding: 20px 0 20px 0;
+    width: 12vw;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.Q_switch_color_active, .Q_switch_font_active{
+    background-color: var(--dark-grey);
+}
+
+.Q_switch_font, .Q_switch_font_active{
+    width: 20vw;
+}
+
+
 
 
 

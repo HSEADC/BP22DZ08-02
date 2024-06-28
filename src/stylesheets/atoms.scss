@@ -86,7 +86,19 @@
 .A_title_and_time{
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
+}
+
+// ————————————————————————————————————————————————————Каталог статей————————————————————————
+.A_switch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    border: 1px solid var(--dark-grey);
+    border-radius: 100px;
+    width: 32vw;
 }
 
 
