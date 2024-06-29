@@ -6,6 +6,17 @@
     margin-top: 72px;
 }
 
+.O_art1{
+    margin-top: 160px;
+}
+
+.O_art2{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 
 
 .O_cover_and_tags{
@@ -49,6 +60,14 @@
     margin-top: 48px;
 }
 
+.O_cover_article_first{
+    margin-top: 120px;
+
+    .M_title_cover_button{
+        margin-top: -5vw;
+    }
+}
+
 .O_article{
     cursor: pointer;
 }
@@ -58,6 +77,13 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 40px;
+}
+
+.O_font{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100vw;
 }
 
 

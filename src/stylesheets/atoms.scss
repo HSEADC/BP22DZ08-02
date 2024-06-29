@@ -301,6 +301,20 @@
 }
 
 
+.A_title_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.A_name_font{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    
+}
+
+
 
 
 

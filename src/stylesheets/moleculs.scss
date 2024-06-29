@@ -77,6 +77,17 @@
     }
 }
 
+.M_font{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+
+    .A_buttons{
+        width: 20vw;
+    }
+}
+
 
 // .M_menu{
 //     position: fixed;
