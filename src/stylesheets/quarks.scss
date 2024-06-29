@@ -122,6 +122,30 @@
 
 
 
+.Q_color1, .Q_color2, .Q_color3, .Q_color4, .Q_color5,
+.Q_color6, .Q_color7, .Q_color8, .Q_color9, .Q_color10,
+.Q_color11, .Q_color12, .Q_color13, .Q_color14, .Q_color15,
+.Q_color16, .Q_color17, .Q_color18, .Q_color19, .Q_color20,
+.Q_color21, .Q_color22, .Q_color23, .Q_color24, .Q_color25,
+.Q_color26, .Q_color27, .Q_color28, .Q_color29, .Q_color30,
+.Q_color31, .Q_color32, .Q_color33, .Q_color34, .Q_color35,
+.Q_color36, .Q_color37, .Q_color38, .Q_color39, .Q_color40{
+    padding: 1.5vw 0 1.5vw 0;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--black);
+    width: 8vw;
+    outline: 1px solid var(--dark-grey);
+    outline-offset: -1px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 
 
