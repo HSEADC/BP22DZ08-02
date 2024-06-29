@@ -171,6 +171,13 @@ module.exports = {
 
     //Section
     new HtmlWebpackPlugin({
+      template: './src/art5.html',
+      filename: './art5.html',
+      chunks: ['index']
+  }),
+
+    //Section
+    new HtmlWebpackPlugin({
       template: './src/art4.html',
       filename: './art4.html',
       chunks: ['index']
